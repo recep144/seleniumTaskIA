@@ -4,7 +4,7 @@ public interface Executor {
 
 	void SetLoginAndClickNext(String login);
 	String OpenCodePageAndReturnCode();
-	void SetCodeAndClickNext(String code);
+	void SetCodeAndClickNext(String code) ;
 	void FillMaskedPasswordAndClickLogin(String password);
 	String GetLoggedInText();
 
